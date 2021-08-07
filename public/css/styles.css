@@ -1,9 +1,9 @@
 body{
-    background-color: #EAC926;
+    background: #EAC926;
     font-family: 'Roboto', sans-serif;
     font-style: Roboto;
     font-size: 12px;
-
+    
 }
 .fontofertas{
     font-size: 24px;
@@ -17,4 +17,7 @@ body{
 }
 .fontdescripciones{
     font-size: 16px;
+}
+.lista{
+    list-style: none;
 }
