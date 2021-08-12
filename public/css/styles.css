@@ -3,12 +3,24 @@
 }
 
 body{
-
-    
     font-family: 'Roboto';
     font-style: Roboto;
     font-size: 12px;
     
+}
+
+main{
+    width: 90vw;
+    margin: auto;  
+}
+
+article{
+    margin: 10px;
+}
+
+.box-products{
+    margin: 0;
+    border-top: 1px solid #ebebeb;
 }
 
 .main-header {
