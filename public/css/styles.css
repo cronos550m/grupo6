@@ -21,6 +21,7 @@ article{
 .box-products{
     margin: 0;
     border-top: 1px solid #ebebeb;
+    padding: 15px;
 }
 
 .main-header {
