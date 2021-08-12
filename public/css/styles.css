@@ -1,10 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
-    background: #EAC926;
-    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Roboto';
     font-style: Roboto;
     font-size: 12px;
     
 }
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+
 .fontofertas{
     font-size: 24px;
 }
