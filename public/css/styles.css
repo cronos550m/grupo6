@@ -52,6 +52,32 @@ body{
     text-align: center;
 }
 
+@media (min-width: 768px) {
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .copy-header {
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamburger-button {
+        display: none;
+    }
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul {
+        display: flex;
+        
+    }
+    .main-navbar li {
+        margin: 0 5px;
+
+    }
+}
 
 
 /* 
