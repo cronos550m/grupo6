@@ -79,6 +79,39 @@ body{
     }
 }
 
+@media (min-width: 1200px) {
+    .logo{
+        width: 250px;
+    }
+    .main-header-top-bar {
+        align-items: center;
+       
+    }
+
+    .main-header-top-bar, .main-navbar {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .copy-header {
+        max-width: none;
+        font-size: 22px;
+        font-size: 400;
+        margin: 0;
+    }
+
+    .main-navbar li {
+        margin: 0 10px;
+
+    }
+    .main-navbar a {
+        margin: 0 19px;
+
+    }
+    .main-navbar a {
+        margin-top: 30px;
+
+    }
+}
 
 /* 
 main{
