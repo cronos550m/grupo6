@@ -129,14 +129,16 @@ body{
     }
 }
 
-/* 
+ 
 main{
     width: 90vw;
     margin: auto;  
 }
 
+
+
 article{
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .box-products{
@@ -144,7 +146,7 @@ article{
     border-top: 1px solid #ebebeb;
     padding: 15px;
 }
-
+/*
 .main-header {
     background-color: #EAC926;
     padding: 20px;
