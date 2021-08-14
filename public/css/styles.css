@@ -68,9 +68,9 @@ body{
     text-align: center;
 }
 
-main section img {
+/* main section img {
     width: 20%;
-}
+} */
 
 @media (min-width: 769px) {
     .main-header-top-bar {
