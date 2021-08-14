@@ -95,6 +95,11 @@ body{
     .hamburger-button {
         display: none;
     }
+    .linea {
+        display:inline-block
+    }
+    
+
     .main-navbar {
         display: flex;
         justify-content: space-between;
