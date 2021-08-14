@@ -95,9 +95,7 @@ body{
     .hamburger-button {
         display: none;
     }
-    .line {
-        display:inline-block
-    }
+
     
 
     .main-navbar {
@@ -135,7 +133,7 @@ body{
         max-width: 15vw;
     }
 
-    
+
 
     .main-header-top-bar, .main-navbar {
         max-width: 1200px;
@@ -167,6 +165,9 @@ body{
     }
 }
 
+.line {
+    display:inline-block
+}
  
 main{
     width: 90vw;
