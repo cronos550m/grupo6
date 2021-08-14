@@ -111,10 +111,7 @@ body{
 
         
     }
-    main {
-        display: flex;
-        justify-content: space-around;
-    }
+
 }
 
 @media (min-width: 1200px) {
@@ -159,10 +156,7 @@ body{
 
     }
     
-    main {
-        display: flex;
-        justify-content: space-around;
-    }
+
 }
 
 .line {
@@ -173,6 +167,11 @@ main{
     width: 90vw;
     margin: auto;  
 
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
 }
 
 
