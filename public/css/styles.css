@@ -88,13 +88,9 @@ body{
         max-width: 350px;
         text-align: right;
     }
-
     .hamburger-button {
         display: none;
     }
-
-    
-
     .main-navbar {
         display: flex;
         justify-content: space-between;
@@ -105,8 +101,6 @@ body{
     }
     .main-navbar li {
         margin: 0 5px;
-
-        
     }
 
 }
@@ -132,6 +126,7 @@ body{
         max-width: 1200px;
         margin: auto;
     }
+
     .copy-header {
         max-width: none;
         font-size: 22px;
@@ -184,7 +179,7 @@ article{
 .box-products{
     margin: 0;
     border-top: 1px solid #ebebeb;
-    padding: 15px;
+    padding: 10px;
 
 }
 
