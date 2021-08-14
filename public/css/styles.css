@@ -68,10 +68,10 @@ body{
     text-align: center;
 }
 @media (min-width: 361px) {
-    main 
+    /* main 
     {
         display: block;
-    }
+    } */
     
 
 }
