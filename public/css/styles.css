@@ -175,6 +175,9 @@ article{
     background: #ffffff;
     border-radius: 5px;
 }
+.box-products-total-1 {
+    max-width: 90vw;
+} 
 
 
 @media (min-width: 769px) {
