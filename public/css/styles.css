@@ -29,9 +29,14 @@ body{
     padding: 20px;
     
 }
+
+.main-header-top-bar {
+    display: flex;
+    justify-content: space-between;
+}
 .nav-logo {
     background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.15.2/mercadolibre/logo__small@2x.png);
-
+    
 }
 
 .hamburger-button {
@@ -150,7 +155,7 @@ article{
 
 .nav-search {
     padding: 10px;
-
+    flex-grow: 1;
     border-color: #ffffff;
 }
 .nav-search:hover {
