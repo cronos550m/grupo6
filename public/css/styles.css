@@ -168,6 +168,7 @@ article{
 }
 .nav-logo {
     order: 0;
+    width: 30;
 }
 
 .fondo-blanco {
@@ -212,14 +213,20 @@ article{
         width: 200px;
     }
     .nav-logo {
-        order: none;
+        display: none;
     }
 
 }
 
 @media (min-width: 1200px) {
-    .nav-logo{
+
+    .nav-logo1 {
+        display: flex;
+        order: 0;
         width: 250px;
+    }
+    .nav-logo {
+        display: none;
     }
 
     .main-header-top-bar {
