@@ -147,10 +147,15 @@ article{
 
 .nav-search {
     padding: 10px;
-    border-radius: 5px;
+
+    border-color: #ffffff;
 }
 .nav-search:hover {
     color: #ebebeb
+}
+.fondo-blanco {
+    background: #ffffff;
+    border-radius: 5px;
 }
 
 
