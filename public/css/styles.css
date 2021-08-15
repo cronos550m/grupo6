@@ -162,8 +162,11 @@ article{
 .nav-search:hover {
     color: #ebebeb
 }
+.nav-logo1 {
+    display: none;
+    order: 0;
+}
 .nav-logo {
-    background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.15.2/mercadolibre/logo__small@2x.png);
     order: 0;
 }
 
@@ -203,8 +206,13 @@ article{
     .main-navbar li {
         margin: 0 5px;
     }
-    .nav-logo {
+    .nav-logo1 {
+        display: flex;
+        order: 0;
         width: 200px;
+    }
+    .nav-logo {
+        order: none;
     }
 
 }
