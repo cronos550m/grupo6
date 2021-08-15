@@ -68,9 +68,84 @@ body{
     text-align: center;
 }
 
-/* main section img {
-    width: 20%;
-} */
+.line {
+    display:block;
+}
+ 
+main{
+    width: 90vw;
+    margin: auto;  
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+article{
+    margin: 10px 0;
+
+    
+}
+
+.box-products{
+    margin: 0;
+    border-top: 1px solid #ebebeb;
+    padding: 10px;
+
+}
+
+.fontofertas{
+    font-size: 24px;
+}
+
+.fontprecios{
+    font-size: 18px;
+}
+.fontdescuentos{
+    font-size: 16px;
+}
+.fontdescripciones{
+    font-size: 16px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.create-form {
+    padding: 20px 15px;
+}
+
+.control-formulario {
+    margin-bottom: 15px;
+}
+
+.control-formulario label {
+    margin-bottom: 15px;
+    font-style: italic;
+    display: block;
+}
+.control {
+    width: 100%;
+    padding: 8px;
+
+}
+
+.button-form {
+    background-color: #666666;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
 
 @media (min-width: 769px) {
     .main-header-top-bar {
@@ -148,55 +223,4 @@ body{
     }
     
 
-}
-
-.line {
-    display:block;
-}
- 
-main{
-    width: 90vw;
-    margin: auto;  
-
-}
-
-.flex {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-
-
-article{
-    margin: 10px 0;
-
-    
-}
-
-
-
-.box-products{
-    margin: 0;
-    border-top: 1px solid #ebebeb;
-    padding: 10px;
-
-}
-
-.fontofertas{
-    font-size: 24px;
-}
-
-.fontprecios{
-    font-size: 18px;
-}
-.fontdescuentos{
-    font-size: 16px;
-}
-.fontdescripciones{
-    font-size: 16px;
-}
-
-.footer{
-    text-align: center;
 }

@@ -1,1 +1,30 @@
-Algo
+***********formulario**************
+
+<form action="/crear-producto" method="POST" class="create-form">
+    <div>   <!-- fomulario de ingreso de datos-->
+        <label>Nombre del producto:</label>
+        <input type="text" name="nombre">
+    </div>
+    <div>   <!-- fomulario de ingreso de datos-->
+        <label>Precio:</label>
+        <input type="text" name="precio" placeholder="Ingresa un precio">
+    </div>
+    <div>   <!-- fomulario de seleccion de opcion desplegable-->
+        <label>Categoria:</label>
+        <select name="categoria">
+            <option value="hogar">Hogar</option>
+            <option value="electro">Electro</option>
+            <option value="indumentaria">Indumentaria</option>
+        </select>
+    </div>
+    <div>   <!-- fomulario caja de texto-->
+        <label>Está en oferta:</label>
+        <textarea name="descripcion"></textarea>
+    <div>   <!-- fomulario con seleccion de circulo-->
+        <label>Esta en oferta:</label>
+        <input type="radio" name="enOferta">
+    </div>
+    
+    <button type="reset">Borrar</button>
+    <button type="submit">Guardar</button>
+</form>

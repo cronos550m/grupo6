@@ -1,0 +1,28 @@
+<form action="/crear-producto" method="POST" class="create-form">
+    <div class="control-formulario">   <!-- fomulario de ingreso de datos-->
+        <label>Nombre del producto:</label>
+        <input type="text" name="nombre" class="control">
+    </div>
+    <div class="control-formulario">   <!-- fomulario de ingreso de datos-->
+        <label>Precio:</label>
+        <input type="text" name="precio" placeholder="Ingresa un precio" class="control">
+    </div>
+    <div class="control-formulario">   <!-- fomulario de seleccion de opcion desplegable-->
+        <label>Categoria:</label>
+        <select name="categoria" class="control">
+            <option value="hogar">Hogar</option>
+            <option value="electro">Electro</option>
+            <option value="indumentaria">Indumentaria</option>
+        </select>
+    </div>
+    <div class="control-formulario">   <!-- fomulario caja de texto-->
+        <label>Está en oferta:</label>
+        <textarea name="descripcion" class="control"></textarea>
+    <div class="control-formulario">   <!-- fomulario con seleccion de circulo-->
+        <label>Esta en oferta:</label>
+        <input type="radio" name="enOferta">
+    </div>
+    
+    <button type="reset" class="button-form">Borrar</button>
+    <button type="submit" class="button-form">Guardar</button>
+</form>
