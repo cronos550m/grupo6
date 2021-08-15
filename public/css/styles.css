@@ -145,7 +145,13 @@ article{
     border-radius: 5px;
 }
 
-
+.nav-search {
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav-search:hover {
+    color: #ebebeb
+}
 
 
 @media (min-width: 769px) {
