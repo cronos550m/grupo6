@@ -27,6 +27,11 @@ body{
 .main-header {
     background-color: #EAC926;
     padding: 20px;
+    
+}
+.nav-logo {
+    background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.15.2/mercadolibre/logo__small@2x.png);
+
 }
 
 .hamburger-button {
@@ -59,9 +64,7 @@ body{
     font-size: 17px;
 }
 
-.logo {
-    width: 200px;
-}
+
 
 .copy-header {
     font-weight: 400px;
@@ -189,11 +192,14 @@ article{
     .main-navbar li {
         margin: 0 5px;
     }
+    .nav-logo {
+        width: 200px;
+    }
 
 }
 
 @media (min-width: 1200px) {
-    .logo{
+    .nav-logo{
         width: 250px;
     }
 
