@@ -145,30 +145,7 @@ article{
     border-radius: 5px;
 }
 
-.nav-search {
-    height: 48px;
-    left: 64px;
-    right: 94px;
-    z-index: 910;
-    will-change: left;
-    transition: left .15s ease-out;
-    position: absolute;
-    top: 0;
-    padding: 8px 0;
-}
-    .nav-search:before {
-        content: '';
-        display: none;
-        position: absolute;
-        top: 0;
-        left: -10px;
-        right: -10px;
-        height: 100%;
-        background-color: #fff;
-        opacity: 0;
-        will-change: opacity;
-        transition: opacity .15s ease-out;
-    }
+
 
 
 @media (min-width: 769px) {
