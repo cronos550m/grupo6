@@ -51,6 +51,7 @@ body{
 
 .main-navbar{
     display: none;
+
 }
 
 .main-navbar ul{ 
@@ -178,6 +179,10 @@ article{
 .box-products-total-1 {
     max-width: 90vw;
 } 
+
+.copy-header {
+    display: none;
+}
 
 
 @media (min-width: 769px) {
