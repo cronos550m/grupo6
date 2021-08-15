@@ -33,11 +33,9 @@ body{
 .main-header-top-bar {
     display: flex;
     justify-content: space-between;
+
 }
-.nav-logo {
-    background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.15.2/mercadolibre/logo__small@2x.png);
-    
-}
+
 
 .hamburger-button {
     background-color: #03264C;
@@ -74,6 +72,7 @@ body{
 .copy-header {
     font-weight: 400px;
     text-align: center;
+    order: 2;
 }
 
 .line {
@@ -157,10 +156,17 @@ article{
     padding: 10px;
     flex-grow: 1;
     border-color: #ffffff;
+    border: 0;
+    order: 1;
 }
 .nav-search:hover {
     color: #ebebeb
 }
+.nav-logo {
+    background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.15.2/mercadolibre/logo__small@2x.png);
+    order: 0;
+}
+
 .fondo-blanco {
     background: #ffffff;
     border-radius: 5px;
