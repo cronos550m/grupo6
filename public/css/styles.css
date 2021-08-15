@@ -49,6 +49,10 @@ body{
     margin: auto;
 }
 
+.hamburger-box {
+    align-items: ;
+}
+
 .main-navbar{
     display: none;
 
@@ -170,6 +174,8 @@ article{
 .nav-logo {
     order: 0;
     width: 10vw;
+    padding-right: 19px;
+    margin: auto;
 }
 
 .fondo-blanco {
