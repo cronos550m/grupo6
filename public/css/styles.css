@@ -264,6 +264,23 @@ article{
 }
 
 
+.registro-form{
+    width:90%;
+    margin:auto;
+}
+
+.registro-form div{
+    margin: 20px 0px;
+}
+.registro-form div input{
+    display: block;
+   width:100%;
+}
+
+
+
+
+
 @media (min-width: 769px) {
     .main-header-top-bar {
         display: flex;
