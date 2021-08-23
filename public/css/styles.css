@@ -446,18 +446,23 @@ main {
 }
 
 .left-navbar {
-font-size: 10px;
-display: flex;
+    font-size: 10px;
+    display: flex;
+    right: 19px;
+    position: relative;
 }
 
 .right-navbar {
     font-size: 10px;
     display: flex;
+    position: relative;
+    right: -147px;  font-size: 10px;
+    display: flex;
 }
 
 .main-navbar{
-    bottom: 10px;
     display: flex;
+    margin-top: 30px;
 }
 
 .main-navbar ul{ 
@@ -472,7 +477,9 @@ display: flex;
     color: #222222;
     display: inline-block;
     padding: 5px 0;
-    font-size: 17px;
+    font-size: 12px;
+    margin-left: 19px;
+    font-weight: bold;
 }
 
 .box-burger {
@@ -521,7 +528,7 @@ main{
 }
 
 .img-home-banner {
-    height: 73px;
+    height: 153px;
     position: absolute;
     width: 100vw;
     right: 0px;
