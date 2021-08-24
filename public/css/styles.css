@@ -18,6 +18,8 @@ main section article i{
     top: -15px;
 }
 
+
+
 body{
     
     font-family: 'Roboto', sans-serif;
@@ -27,6 +29,11 @@ body{
     
 }
 
+main {
+    width: 90vw;
+    margin: auto;
+    margin-top: 241px;
+}
 
 
 
@@ -88,7 +95,7 @@ body{
 
 .box-burger {
     position: relative;
-    right: 230px;
+    right: 208px;
     margin-top: 83px;
     
 }
@@ -285,7 +292,7 @@ article{
    
   .box{
     position: relative;
-    right: 1px;
+    right: 27px;
     margin-top: 4px;
 
 }
@@ -384,6 +391,12 @@ article{
     box-sizing: border-box;
    }
 
+   main {
+    width: 90vw;
+    margin: auto;  
+
+}
+
 main section article i{
     display: block;
     font-size: 16px;
@@ -448,6 +461,7 @@ body{
     display: flex;
     right: 19px;
     position: relative;
+    overflow: hidden;
 }
 
 .right-navbar {
@@ -774,6 +788,12 @@ article{
         box-sizing: border-box;
        }
     
+       main {
+        width: 90vw;
+        margin: auto;
+        margin-top: 241px;
+
+}
     main section article i{
         display: block;
         font-size: 16px;
