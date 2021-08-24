@@ -20,8 +20,8 @@
     <header class="main-header">
         <div class="main-header-top-bar">
             
-            <div><img class="nav-logo" src="/images/logo-mercado-liebre-chico.svg"></div>
-            <div><img class="nav-logo1" src="/images/logo-mercado-liebre.svg"></div>
+            <!-- <div><img class="" src="/images/logo-mercado-liebre-chico.svg"></div> -->
+            <div><img class="nav-logo" src="/images/logo-mercado-liebre.svg"></div>
             <div class="box">
                 <div class="container-4">
                   <input type="search" id="search" placeholder="Buscar..." />
@@ -30,9 +30,9 @@
               </div>
             <div class="copy-header">
                 <i class="fas fa-hand-holding-usd"></i>
-                Comprá en cuotas y sin tarjeta de crédito
+                <div class="text-header">Comprá en cuotas y sin tarjeta de crédito</div>
             </div>
-            <div>
+            <div class="box-burger">
                 <a href="#" class="hamburger-button">
                 <i class="fas fa-bars"></i>
                 </a>
@@ -55,6 +55,10 @@
     </header>
 
     <main>
+        <div class="img-home-banner">
+            <img class="img-home-banner" src="/images/img-home-banner.jpg" alt="">
+        </div>
+        <section class="box-product">
 <form action="/crear-producto" method="POST" class="create-form">
     <div class="control-formulario">   <!-- fomulario de ingreso de datos-->
         <label>Nombre del producto:</label>
@@ -92,6 +96,7 @@
     <button type="reset" class="button-form">Borrar</button>
     <button type="submit" class="button-form">Guardar</button>
 </form>
+</section>
 </main>
 
 <footer>
