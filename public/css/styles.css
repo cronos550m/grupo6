@@ -356,22 +356,85 @@ article{
 
 
 
-.registro-form{
-    width:90%;
-    margin:auto;
+.registro-form input[type="radio" i]{
+    right: 72px;
+    position: relative;
+    top: -14px;
 }
+
+.registro-form input[type="checkbox" i] {
+    right: 42px;
+    position: relative;
+    top: -14px;
+}
+
 
 .registro-form div{
     margin: 20px 0px;
 }
 .registro-form div input{
     display: block;
-   width:100%;
+    width:100%;
+}
+
+.register-form-box {
+    width: 90vw;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.register-form-interes {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.register-form-checkbox {
+margin-top: 10px;
+}
+
+.login-form-box {
+    width: 90vw;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.login-form-pass {
+    position: relative;
+    right: -7px;
+}
+.login-form-user {
+    position: relative;
+    right: -33px;
+}
+
+.login-pass {
+    position: relative;
+    margin-top: 10px;
+}
+
+.login-user {
+    position: relative;
+    margin-top: 10px;
+}
+.login-send {
+    position: relative;
+    margin-top: 10px;
+
 }
 
 
-
-
+.login-form input[type="submit" i] {
+    background-color: #0a56a7;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+}
 
 @media (min-width: 769px) {
 *{
