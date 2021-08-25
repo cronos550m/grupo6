@@ -25,7 +25,8 @@ body{
     font-family: 'Roboto', sans-serif;
     font-style: Roboto;
     background-color: #ebebeb;
-
+    /* display: flow-root;
+    margin: 8px; */
     
 }
 
@@ -39,11 +40,11 @@ main {
 
 .main-header {
     background-color: #EAC926;
-    padding: 5px 27px;
+    padding: 12px 27px;
     position: fixed;
     top: 0;
     width: 100%;
-    height: 141px;
+    height: 149px;
     z-index: 90;
     
 }
@@ -95,7 +96,7 @@ main {
 
 .box-burger {
     position: relative;
-    right: 208px;
+    right: 233px;
     margin-top: 83px;
     
 }
@@ -109,10 +110,9 @@ main {
 .copy-header {
     order: 2;
     position: relative;
-    right: 353px;
+    right: 381px;
     display: flex;
     width: 365px;
-    margin-top: 47px;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
@@ -292,9 +292,8 @@ article{
    
   .box{
     position: relative;
-    right: 27px;
+    right: 8px;
     margin-top: 4px;
-
 }
 
 .container-4{
@@ -307,7 +306,7 @@ article{
   }
 
   .container-4 input#search{
-    width: 155px;
+    width: 166px;
     height: 36px;
     background: #ffffff;
     border: none;
@@ -337,19 +336,8 @@ article{
  }
 
  .container-4 button.icon{
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border: none;
-    background: #ffffff;
-    height: 30px;
-    width: 30px;
-    color: #4f5b66;
-    opacity: 100;
-    font-size: 10pt;
-    margin-left: -1px;
     position: relative;
     right: 35px;
-   
     border: none;
     background: #ffffff;
     height: 30px;
@@ -358,6 +346,7 @@ article{
     opacity: 100;
     font-size: 10pt;
     margin-left: -1px;
+    border-radius: 50%;
   }
 
   .container-4:hover button.icon:hover{
@@ -461,7 +450,7 @@ body{
     display: flex;
     right: 19px;
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/   
 }
 
 .right-navbar {
