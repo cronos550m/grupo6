@@ -398,6 +398,13 @@ margin-top: 10px;
     margin: auto;
     background-color: white;
     padding: 20px;
+    border-radius: 4px;
+}
+
+.errorLogin {
+    margin-top: 9px;
+    color: red;
+    display: block;
 }
 
 .login-form-pass {

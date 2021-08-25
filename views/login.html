@@ -14,6 +14,8 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="./css/styles.css">
         <script src="https://kit.fontawesome.com/f3260f2ce3.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="/js/varlidarLogin.js" ></script>
     </head>
 
 <body>
@@ -64,23 +66,23 @@
 
             <h2>Ingresar</h2>
 
-        <form action="#" method="get" class="login-form">
-            <div class="login-user">
-                <label>Usuario:
-                <input class="login-form-user" type="text" placeholder="Ej: Pepito" name="Nombredeusuari">
-            </label>
-            </div>
-            
-            <div class="login-pass">
-                <label for="pass">Contraseña: </label>
-                <input class="login-form-pass" type="password" name="pass">
-            </div>
-            <div>
-                <div class="login-send" >
-                
-                <input type="submit" value="Enviar" name="enviar">
-            </div>
-            </section>
+            <form action="#" method="get" class="login-form">
+                <div class="login-user">
+                    <label>Usuario:
+                    <input class="login-form-user" type="text" placeholder="Ej: Pepito" name="loginUsuario" id="loginUsuario">
+                </label>
+                </div>
+                <div class="login-pass">
+                    <label for="pass">Contraseña: </label>
+                    <input class="login-form-pass" type="password" name="loginPass" id="loginPass">
+                </div>
+                <div>
+                    <div class="login-send" >
+                    
+                    <input type="button" value="Enviar" name="enviar" onclick="validarformulario()">
+                </div>
+                <span id="errorLogin" class="errorLogin"></span>
+                </section>
  </main>
 
     <footer>
