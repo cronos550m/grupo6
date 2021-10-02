@@ -11,17 +11,15 @@ app.listen(port, () => {
 })
 
 app.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname,'./views/index.html'))
+    res.render(path.join(__dirname,'./views/index.ejs'))
 })
   app.get("/register", (req, res) => {
-    res.sendFile(path.join(__dirname, "./views/register.html"));
+    res.render(path.join(__dirname, "./views/register.ejs"));
   });
   app.get("/login", (req, res) => {
-    res.sendFile(path.join(__dirname, "./views/login.html"));
+    res.render(path.join(__dirname, "./views/login.ejs"));
   });
-  app.get("/product", (req, res) => {
-    res.sendFile(path.join(__dirname, "./views/product.html"));
-  });
+  app.set('view engine', 'ejs')
 
 
 

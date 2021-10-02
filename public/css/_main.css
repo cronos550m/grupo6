@@ -1,0 +1,256 @@
+
+body {
+    font-family: roboto;
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+
+h2 {
+    font-size: 24px;
+    color: #666;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin: auto;
+    width: 100%;
+}
+
+
+
+.register-checkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-banner {
+    width: 100%;
+    margin-top: 241px;
+}
+
+.article-general {
+    background-color: white;
+    margin: auto;
+    position: relative;
+    margin-bottom: 24px;
+    width: 90%;
+}
+
+.article-general img {
+    width: 100%;
+}
+
+.article-description {
+    border-top: 1px solid #ebebeb;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.article-description i {
+    display: block;
+    position: absolute;
+    right: 25px;
+    bottom: 98px;
+    font-size: 16px;
+    max-width: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    border: #39b54a 1.3px solid;
+    color: #39b54a;
+}
+
+.precios {
+    font-size: 22px;
+    color: #666;
+    font-weight: bold;
+}
+
+.descuentos {
+    font-size: 20px;
+    color: #39b54a;
+}
+
+.descripciones {
+    display: none;
+    font-size: 20px;    
+    color: #666;
+}
+
+.register-form, .login-form {
+    width: 90%;
+    margin: auto;
+    margin-top: 280px;
+    margin-bottom: 200px;
+}
+
+.register-field, .login-field {
+    display: block;
+    margin: 40px 0;
+    font-size: 18px;
+    width: 100%;
+}
+
+.register-input, .login-input {
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.register-date, .register-interest, .register-profile {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.register-user {
+    margin: 0 15px;
+}
+
+.register-buttons {
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.send-button, .reset-button {
+    padding: 12px;
+    font-size: 1.5em;
+    border-radius: 6px;
+    margin: 0 40px;
+    border: none;
+    background-color: #03264C;
+    color: #FFF;
+}
+
+.send-button:hover, .reset-button:hover {
+    background-color: #03264C;
+}
+
+
+
+
+/***************************************************/
+/***************************************************/
+/********************  769  ************************/
+/***************************************************/
+/***************************************************/
+
+@media (min-width: 769px){
+
+    .register-form, .login-form {
+        width: 90%;
+        margin: auto;
+        margin-top: 280px;
+        margin-bottom: 118px;
+    }
+
+.home-banner {
+    margin-top: 160px;
+}
+
+.article-general {
+    width: 48%;
+}
+
+.ultima-visita, .ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article-description {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.article-description i {
+    margin-top: -30px;
+    font-size: 27px;
+    padding: 15px;
+    max-width: 65px;
+    background-color: #FFF;
+    border: 1.3px solid #39b54a;
+}
+
+.precios {
+    font-size: 25px;
+}
+
+.descuentos {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.descripciones {
+    display: block;
+    margin-top: -10px;
+    color: #ababab;
+    font-size: 22px;
+}    
+
+.precios, .descuentos {
+    display: inline-block;
+}
+
+.register-form h2, .login-form h2 {
+    width: 50%;
+    margin: auto;
+}
+
+.register-field, .login-field {
+    width: 50%;
+    margin: auto;
+}
+
+.register-input, .login-input {
+    margin: 20px 0;
+}
+
+.register-date, .register-interest, .register-profile {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.register-interest {
+    margin-top: 40px;
+}
+
+.register-profile {
+    margin: 20px 0;
+}
+}
+
+
+
+
+@media (min-width: 1200px){
+
+.article-general {
+    width: 23%;
+}
+
+.article-general:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.login-form {
+    width: 90%;
+    margin: auto;
+    margin-top: 356px;
+    margin-bottom: 157px;
+}
+
+.register-form {
+    width: 90%;
+    margin: auto;
+    margin-top: 318px;
+    margin-bottom: 157px;
+}
+
+}

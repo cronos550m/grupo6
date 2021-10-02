@@ -1,0 +1,29 @@
+<%- include('./partials/head'); %>
+
+<%- include('./partials/header'); %>
+
+    <main>
+        <form class="login-form" action="/" method="GET">
+            <h2>Iniciá sesión: </h2>
+
+            <div class="login-field">
+                <input type="text" name="user" id="user" placeholder="Nombre de usuario" required class="login-input"></input>
+                <span>
+
+                </span>
+            </div>
+
+            <div class="login-field">
+                <input type="password" name="pass" id="pass" placeholder="Contraseña" required class="login-input"></input>
+                <span>
+
+                </span>
+            </div>
+
+            <div class="register-buttons">
+                <button type="submit" class="send-button">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+<%- include('./partials/footer'); %>

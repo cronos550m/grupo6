@@ -1,0 +1,85 @@
+<%- include('./partials/head'); %>
+
+<%- include('./partials/header'); %>
+
+    <main>
+        <form class="register-form" action="/" method="GET">
+            <h2>Registrate: </h2>
+            
+            <div class="register-field">
+                <input type="text" name="name" id="name" placeholder="Nombre" required class="register-input"></input>
+                <span>
+
+                </span>
+            </div>
+
+            <div class="register-field">
+                <input type="text" name="surname" id="surname" placeholder="Apellido" required class="register-input"></input>
+                <span>
+
+                </span>
+            </div>
+
+            <div class="register-field">
+                <input type="text" name="user" id="user" placeholder="Usuario" required class="register-input"></input>
+                <span>
+
+                </span>
+            </div>
+
+            <div class="register-field">
+                <label for="date" class="register-date">Fecha de Nacimiento:</label>
+                <input type="date" name="date" id="date" class="register-input"></input>
+            </div>
+
+            <div class="register-field">
+                <input type="text" name="address" id="address" placeholder="Ingrese su Domicilio" class="register-input"></input>
+                <span>
+
+                </span>
+            </div>
+
+            <div class="register-field">
+                <h3>Perfil de usuario:</h3>
+                <input type="radio" name="rd-profile" value="buyer" class="register-user">Comprador</input>
+                <input type="radio" name="rd-profile" value="seller" class="register-user">Vendedor</input>
+            </div>
+
+            <div class="register-field">
+                <label class="register-interest">Intereses:</label>
+                <ol class="register-checkbox">
+                    <il><input type="checkbox">Electro</il>
+                    <il><input type="checkbox">Moda</il>
+                    <il><input type="checkbox">Hogar</il>
+                    <il><input type="checkbox">Jugetería</il>
+                    <il><input type="checkbox">Vida sana</il>
+            </ol>
+            </div>
+
+            <div class="register-field">
+                <label for="profile" class="register-profile">Selecciona una imágen de perfil</label>
+                <input type="file" name="profile" id="profile" multiple></input>
+            </div>
+
+            <div class="register-field">
+                <input type="password" name="pass" id="pass" placeholder="Contraseña" required class="register-input"></input>
+                <span>
+
+                </span>
+            </div>
+
+            <div class="register-field">
+                <input type="password" name="pass2" id="pass2" placeholder="Confirmar Contraseña" required class="register-input"></input>
+                <span>
+
+                </span>
+            </div>
+
+            <div class="register-buttons">
+                <button type="reset" class="reset-button">Borrar</button>
+                <button type="submit" class="send-button">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+<%- include('./partials/footer'); %>

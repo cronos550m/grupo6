@@ -1,0 +1,232 @@
+
+header {
+    background-color: #EAC926;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+}
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    flex-grow: 1;
+    width: 150px;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.form-searchbar {
+    position: relative;
+    display: block;
+    flex-grow: 1;
+    margin: 0 31px;
+}
+
+.form-searchbar i {
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    font-size: 15px;
+    color:rgb(100, 100, 100);
+}
+
+.search-bar {
+    position: relative;
+    border: none;
+    width: 100%;
+    padding: 11px;
+    border-radius: 7px;
+    font-size: 1.2em;
+}
+
+.main-navbar {
+    display: none;
+}
+
+.header-text {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+}
+
+.burger-menu {
+    background-color: #03264C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+    font-size: 19px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.active, .burger-menu:hover {
+    background-color: #03264C;
+  }
+
+.panel {
+  padding: 0 18px;
+  background-color: #EAC926;
+  display: none;
+  overflow: hidden;
+}
+
+.panel a {
+    color: #03264C;
+}
+
+.panel a:visited {
+    color: #03264C;
+}
+
+
+
+
+/***************************************************/
+/***************************************************/
+/********************  769  ************************/
+/***************************************************/
+/***************************************************/
+
+@media (min-width: 769px){
+
+    .main-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 11px;
+    }
+
+    header {
+        margin-top: -17px;
+    }
+
+    .search-bar {
+        margin-left: 30px;
+        padding: 15px;
+    }
+
+    .form-searchbar i {
+        top: 15px;
+        right: -18px;
+    }
+
+    .header-text {
+        text-align: right;
+        display: flex;
+        width: 100%;
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    .main-navbar {
+        display: flex;
+        color: #222222;
+        margin: 0;
+        padding: 0;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .main-navbar ul {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-navbar li {
+        padding: 0 10px;
+    }
+
+    .main-navbar a {
+        text-decoration: none;
+        color: #222222;
+        display: inline-block;
+        padding: 5px 0;
+        padding-right: 3px;
+        font-size: 16px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+
+
+/***************************************************/
+/***************************************************/
+/********************  1200  ***********************/
+/***************************************************/
+/***************************************************/
+
+@media (min-width: 1200px){
+    .main-header, .main-navbar {
+        max-width: 1200px;
+        padding: 5px 0;
+        margin: auto;
+    }
+
+    .logo {
+        display: block;
+        flex-grow: 1;
+        width: 150px;
+        max-width: 275px;
+        margin: 20px;
+    }
+
+    .header-text {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .main-navbar {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar a, .main-navbar i {
+        font-size: 22px;
+    }
+    .form-searchbar {
+        position: relative;
+        flex-grow: 1;
+        display: flex;
+        margin: 0 31px;
+        justify-content: flex-end;
+    }
+    .search-bar {
+        position: relative;
+        border: none;
+        width: 445px;
+        padding: 11px;
+        border-radius: 7px;
+        font-size: 2.2em;
+    }
+    .form-searchbar i {
+        top: 15px;
+        right: 16px;
+        font-size: 20px;
+    }
+}
